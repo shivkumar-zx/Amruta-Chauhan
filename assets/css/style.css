@@ -2439,7 +2439,7 @@ article.grid-cell:hover .service-card-desc {
 /* Sidebar Drawer Panel */
 .project-modal-content.project-sidebar-panel {
   width: 100%;
-  max-width: 580px;
+  max-width: 55%;
   height: 100vh;
   height: 100dvh;
   background-color: #ffffff;
