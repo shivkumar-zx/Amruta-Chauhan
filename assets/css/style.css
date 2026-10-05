@@ -2744,24 +2744,6 @@ article.grid-cell:hover .service-card-desc {
   transform: translateX(4px);
 }
 
-.sidebar-shortcut-hint {
-  text-align: center;
-  font-size: 0.75rem;
-  color: #8c857e;
-  margin-top: 2px;
-}
-
-.sidebar-shortcut-hint kbd {
-  display: inline-block;
-  padding: 2px 6px;
-  font-size: 0.72rem;
-  font-family: inherit;
-  background: #f1ede8;
-  border: 1px solid #d9d2c9;
-  border-radius: 3px;
-  color: #4a453f;
-}
-
 /* Stagger entrance animations when opening */
 @keyframes sidebarContentFadeUp {
   0% {
