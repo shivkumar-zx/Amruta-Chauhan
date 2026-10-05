@@ -2032,7 +2032,7 @@ article.grid-cell:hover .service-card-desc {
 .blog-featured-title {
   font-family: var(--font-syne), sans-serif;
   font-size: clamp(1.6rem, 2.3vw, 2.4rem);
-  font-weight: 600;
+  font-weight: 300;
   line-height: 1.25;
   color: var(--color-dark);
   margin-bottom: 1.25rem;
@@ -2103,7 +2103,7 @@ article.grid-cell:hover .service-card-desc {
 .blog-card-title {
   font-family: var(--font-syne), sans-serif;
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 1.3;
   color: var(--color-dark);
   margin-bottom: 10px;
@@ -2426,7 +2426,7 @@ article.grid-cell:hover .service-card-desc {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1),
-              visibility 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    visibility 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   padding: 0;
   margin: 0;
 }
@@ -2768,6 +2768,7 @@ article.grid-cell:hover .service-card-desc {
     opacity: 0;
     transform: translateY(16px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
